@@ -7,11 +7,15 @@ const Content = () => {
         <source src={videoBg}/>
       </video>
       <h4>OUR PACKAGES</h4>
-      <h1>Search for <u>Holiday</u></h1>
+      <h1>Search for <u>SKIRTSKIRT</u></h1>
       <div className='search-wrapper'>
         <div>
           <p>Select your type:</p>
-          <input type="search" />
+          <label htmlFor="types"></label>
+          <select name="types" id="types">
+            <option value="appartment">Appartment</option>
+            <option value="bhouse">Bording House</option>
+          </select>
         </div>
         <div>
           <p>Select your date:</p>
