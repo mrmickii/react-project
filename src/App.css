@@ -4,36 +4,8 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
-.navbar{
-  display: flex;
-  justify-content: space-between;
-  background-color: #f4f4f4;
-  padding: 10px;
-}
-.logo{
-  font-weight: bold;
-  align-items: center;
-}
-.right-navbar a{
-  margin: 30px;
-  color: black;
-  text-decoration: none;
-}
-.right-nav a:hover{
-  text-decoration: underline;
-  text-decoration-color: aqua;
-}
-.right-navbar button{
-  background: linear-gradient(90deg, hsla(176, 53%, 85%, 1) 0%, hsla(182, 93%, 68%, 1) 54%, hsla(227, 81%, 79%, 1) 81%);
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 20px;
-  padding: 12px 20px;
-  cursor: pointer;
-}
 video{
-  width: 100%;
+  width: 100vw;
   height: 60vh;
   object-fit: cover;
   position: absolute;
@@ -50,7 +22,7 @@ video{
 }
 .search-wrapper{
   background-color: white;
-  width: 80%;
+  width: 80vw;
   height: 15vh;
   position: relative;
   top: 170px; 

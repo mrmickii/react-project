@@ -1,10 +1,12 @@
 import React from 'react'
+import './Header.css'
 
 const Header = () => {
   return (
-    <div className="navbar">
-      <div className='logo'>ProCrammers</div>
-      <div className='right-navbar'>
+    <div className="header">
+      <nav>
+      <div className='logo-right-navbar' href="#">PROCRAMMERS</div>
+      <div className='content-right-navbar'>
         <ul>
           <a href="#">Home</a>
           <a href="#">About</a>
@@ -13,6 +15,7 @@ const Header = () => {
           <button>BOOK NOW</button>
         </ul>
       </div>
+      </nav>
     </div>
   )
 }
